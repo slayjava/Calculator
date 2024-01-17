@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Roboto+Mono:wght@300&family=Rubik+Doodle+Shadow&display=swap');
+body {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url('cal2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex-item {
+    transition: .5s;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-container {
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    /* background-color: rgb(131, 162, 188); */
+    background-color: rgba(161, 195, 220, 0.628);
+    flex-wrap: wrap;
+    width: 35%;
+    padding: 15px 0 15px 30px;
+    border-radius: 20px;
+    
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        width: 90%;
+    }
+}
+
+.text-center {
+    text-align: center;
+    margin: 48px 0 25px;
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 50px;
+    color: #000000;  
+}
+
+.bg-purple {
+
+    background-color: blueviolet;
+}
+
+.m-w {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.row {
+    margin: 8px 5px;
+}
+
+.row button {
+    padding: 20px;
+    margin: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.row button:hover {
+    background-color: rgb(142, 242, 249);
+    color: rgb(20, 22, 28);
+}
+
+.items-center {
+    align-items: center;
+}
+
+.row input {
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 10px;
+    margin: 0 30px;
+}
